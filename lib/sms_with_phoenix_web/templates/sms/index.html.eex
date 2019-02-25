@@ -1,0 +1,24 @@
+<h2>Send an SMS with the Nexmo SMS API</h2>
+
+<form action="/send" method="post">
+  <input type="hidden" value="<%= @token %>" name="_csrf_token"/>
+  <div class="field">
+    <label for="number">
+      Recipient Phone Number:
+    </label>
+    <br />
+    <input type="text" name="number">
+  </div>
+
+  </div class="field">
+    <label for="message">
+      Message:
+    </label>
+    <br />
+    <textarea name="message" placeholder="Enter message here"></textarea>
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Send">
+  </div>
+</form>
