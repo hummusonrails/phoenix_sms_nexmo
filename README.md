@@ -13,6 +13,7 @@
 * Provision a Nexmo number for SMS in your Nexmo Dashboard
 * Edit the `.env.sample` file with your Nexmo API credentials obtained through the Nexmo Dashboard
 * Rename `.env.sample` to `.env`
+* Run `source.env` from your terminal
 * Install dependencies with `mix deps.get`
 * Create and migrate your database with `mix ecto.setup`
 * Install Node.js dependencies with `cd assets && npm install`
